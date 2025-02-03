@@ -8,7 +8,7 @@ int main() {
     }
     else if((b+c)>a)
     {
-        printf("Valid";)
+        printf("Valid");
     }
     else if((a+c)>b)
     {
