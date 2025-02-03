@@ -6,14 +6,6 @@ int main() {
     {
         printf("Valid");
     }
-    else if((b+c)>a)
-    {
-        printf("Valid");
-    }
-    else if((a+c)>b)
-    {
-        printf("Valid");
-    }
     else{
         printf("Invalid");
     }
