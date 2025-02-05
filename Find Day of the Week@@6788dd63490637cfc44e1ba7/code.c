@@ -2,7 +2,6 @@
 int main() {
     int a;
     scanf("%d",&a);
-    switch(a){
         if(a==1)
         printf("Monday");
         
@@ -25,6 +24,6 @@ int main() {
     
         else
         printf("Invalid");
-    }
+
     return 0;
 }
