@@ -29,7 +29,7 @@ int main() {
                 r = a / b;
                 printf("%d\n", r);
             } else {
-                printf("Error: Division by zero\n");
+                printf("error\n");
                 return 1;
             }
             break;
