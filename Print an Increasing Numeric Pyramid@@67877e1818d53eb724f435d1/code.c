@@ -2,20 +2,16 @@
 
 int main() {
     int N;
-    scanf("%d", &N);  // Read the number of rows
+    scanf("%d", &N); 
 
-    for (int i = 1; i <= N; i++) {  // Loop for rows
-        // Print leading spaces
+    for (int i = 1; i <= N; i++) {
         for (int j = 1; j <= N - i; j++) {
-            printf(" ");  // Single space for proper centering
+            printf(" ");
         }
-        
-        // Print increasing numbers
         for (int j = 1; j <= i; j++) {
             printf("%d ", j);
         }
-        
-        printf("\n");  // Move to the next line
+        printf("\n");
     }
     
     return 0;
