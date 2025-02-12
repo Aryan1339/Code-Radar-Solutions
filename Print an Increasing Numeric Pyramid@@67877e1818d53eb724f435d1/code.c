@@ -7,7 +7,7 @@ int main() {
     for (int i = 1; i <= N; i++) {  // Loop for rows
         // Print leading spaces
         for (int j = 1; j <= N - i; j++) {
-            printf("  ");  // Two spaces for better alignment
+            printf(" ");  // Single space for proper centering
         }
         
         // Print increasing numbers
